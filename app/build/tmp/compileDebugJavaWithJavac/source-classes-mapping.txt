@@ -1,9 +1,31 @@
+com/example/bookmanager_java/BuildConfig.java
+ com.example.bookmanager_java.BuildConfig
+com/example/bookmanager_java/SQLiteDataBaseHelper.java
+ com.example.bookmanager_java.SQLiteDataBaseHelper
+com/example/bookmanager_java/MainActivity.java
+ com.example.bookmanager_java.MainActivity
+ com.example.bookmanager_java.MainActivity$1
+ com.example.bookmanager_java.MainActivity$2
+com/example/bookmanager_java/MyService3.java
+ com.example.bookmanager_java.MyService3
+ com.example.bookmanager_java.MyService3$1
+com/example/bookmanager_java/MyService4.java
+ com.example.bookmanager_java.MyService4
+ com.example.bookmanager_java.MyService4$1
+com/example/bookmanager_java/MyService2.java
+ com.example.bookmanager_java.MyService2
+ com.example.bookmanager_java.MyService2$1
+com/example/bookmanager_java/MainActivity3.java
+ com.example.bookmanager_java.MainActivity3
+ com.example.bookmanager_java.MainActivity3$1
+ com.example.bookmanager_java.MainActivity3$MyAdapter
+ com.example.bookmanager_java.MainActivity3$MyAdapter$ViewHolder
 com/example/bookmanager_java/MainActivity2.java
  com.example.bookmanager_java.MainActivity2
  com.example.bookmanager_java.MainActivity2$1
+ com.example.bookmanager_java.MainActivity2$2
  com.example.bookmanager_java.MainActivity2$MyAdapter
  com.example.bookmanager_java.MainActivity2$MyAdapter$ViewHolder
-com/example/bookmanager_java/SQLiteDataBaseHelper.java
- com.example.bookmanager_java.SQLiteDataBaseHelper
-com/example/bookmanager_java/BuildConfig.java
- com.example.bookmanager_java.BuildConfig
+com/example/bookmanager_java/MyService.java
+ com.example.bookmanager_java.MyService
+ com.example.bookmanager_java.MyService$1
