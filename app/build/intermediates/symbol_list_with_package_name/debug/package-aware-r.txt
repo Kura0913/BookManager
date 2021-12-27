@@ -1931,9 +1931,14 @@ id bounce
 id bounceBoth
 id bounceEnd
 id bounceStart
+id btn
+id btn2
 id btn_Clear
 id btn_Create
 id btn_Modify
+id btn_back
+id btn_bookBorrow
+id btn_bookReturn
 id btn_search
 id buttonPanel
 id cache_measures
@@ -2272,6 +2277,7 @@ id textSpacerNoTitle
 id textStart
 id textTop
 id textView
+id textView2
 id text_input_end_icon
 id text_input_error_icon
 id text_input_start_icon
@@ -2297,6 +2303,10 @@ id transition_position
 id transition_scene_layoutid_cache
 id transition_transform
 id triangle
+id tv_author
+id tv_bookName
+id tv_counter
+id tv_press
 id unchecked
 id uniform
 id unlabeled
@@ -2386,7 +2396,9 @@ layout abc_search_dropdown_item_icons_2line
 layout abc_search_view
 layout abc_select_dialog_material
 layout abc_tooltip
+layout activity_main
 layout activity_main2
+layout activity_main3
 layout custom_dialog
 layout design_bottom_navigation_item
 layout design_bottom_sheet_dialog

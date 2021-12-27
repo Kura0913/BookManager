@@ -18,8 +18,31 @@
         android:supportsRtl="true"
         android:testOnly="true"
         android:theme="@style/Theme.BookManager_java" >
+        <service
+            android:name="com.example.bookmanager_java.MyService4"
+            android:enabled="true"
+            android:exported="true" />
+        <service
+            android:name="com.example.bookmanager_java.MyService3"
+            android:enabled="true"
+            android:exported="true" />
+        <service
+            android:name="com.example.bookmanager_java.MyService2"
+            android:enabled="true"
+            android:exported="true" />
+        <service
+            android:name="com.example.bookmanager_java.MyService"
+            android:enabled="true"
+            android:exported="true" />
+
+        <activity
+            android:name="com.example.bookmanager_java.MainActivity3"
+            android:exported="false" />
         <activity
             android:name="com.example.bookmanager_java.MainActivity2"
+            android:exported="false" />
+        <activity
+            android:name="com.example.bookmanager_java.MainActivity"
             android:exported="true" >
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />

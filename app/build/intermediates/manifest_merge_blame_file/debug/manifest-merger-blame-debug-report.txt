@@ -6,67 +6,112 @@
 6
 7    <uses-sdk
 8        android:minSdkVersion="22"
-8-->D:\AndroidStudioProjects\BookManager_java\app\src\main\AndroidManifest.xml
+8-->C:\Users\Googo\AndroidStudioProjects\github\BookManager\app\src\main\AndroidManifest.xml
 9        android:targetSdkVersion="31" />
-9-->D:\AndroidStudioProjects\BookManager_java\app\src\main\AndroidManifest.xml
+9-->C:\Users\Googo\AndroidStudioProjects\github\BookManager\app\src\main\AndroidManifest.xml
 10
 11    <application
-11-->D:\AndroidStudioProjects\BookManager_java\app\src\main\AndroidManifest.xml:5:5-21:19
+11-->C:\Users\Googo\AndroidStudioProjects\github\BookManager\app\src\main\AndroidManifest.xml:5:5-43:19
 12        android:allowBackup="true"
-12-->D:\AndroidStudioProjects\BookManager_java\app\src\main\AndroidManifest.xml:6:9-35
+12-->C:\Users\Googo\AndroidStudioProjects\github\BookManager\app\src\main\AndroidManifest.xml:6:9-35
 13        android:appComponentFactory="androidx.core.app.CoreComponentFactory"
-13-->[androidx.core:core:1.7.0] C:\Users\Sakula\.gradle\caches\transforms-3\376792b261fdcbfd86757f02ea12377d\transformed\core-1.7.0\AndroidManifest.xml:24:18-86
+13-->[androidx.core:core:1.7.0] C:\Users\Googo\.gradle\caches\transforms-3\376792b261fdcbfd86757f02ea12377d\transformed\core-1.7.0\AndroidManifest.xml:24:18-86
 14        android:debuggable="true"
 15        android:icon="@mipmap/ic_launcher"
-15-->D:\AndroidStudioProjects\BookManager_java\app\src\main\AndroidManifest.xml:7:9-43
+15-->C:\Users\Googo\AndroidStudioProjects\github\BookManager\app\src\main\AndroidManifest.xml:7:9-43
 16        android:label="@string/app_name"
-16-->D:\AndroidStudioProjects\BookManager_java\app\src\main\AndroidManifest.xml:8:9-41
+16-->C:\Users\Googo\AndroidStudioProjects\github\BookManager\app\src\main\AndroidManifest.xml:8:9-41
 17        android:roundIcon="@mipmap/ic_launcher_round"
-17-->D:\AndroidStudioProjects\BookManager_java\app\src\main\AndroidManifest.xml:9:9-54
+17-->C:\Users\Googo\AndroidStudioProjects\github\BookManager\app\src\main\AndroidManifest.xml:9:9-54
 18        android:supportsRtl="true"
-18-->D:\AndroidStudioProjects\BookManager_java\app\src\main\AndroidManifest.xml:10:9-35
+18-->C:\Users\Googo\AndroidStudioProjects\github\BookManager\app\src\main\AndroidManifest.xml:10:9-35
 19        android:testOnly="true"
 20        android:theme="@style/Theme.BookManager_java" >
-20-->D:\AndroidStudioProjects\BookManager_java\app\src\main\AndroidManifest.xml:11:9-54
-21        <activity
-21-->D:\AndroidStudioProjects\BookManager_java\app\src\main\AndroidManifest.xml:12:9-20:20
-22            android:name="com.example.bookmanager_java.MainActivity2"
-22-->D:\AndroidStudioProjects\BookManager_java\app\src\main\AndroidManifest.xml:13:13-42
-23            android:exported="true" >
-23-->D:\AndroidStudioProjects\BookManager_java\app\src\main\AndroidManifest.xml:14:13-36
-24            <intent-filter>
-24-->D:\AndroidStudioProjects\BookManager_java\app\src\main\AndroidManifest.xml:15:13-19:29
-25                <action android:name="android.intent.action.MAIN" />
-25-->D:\AndroidStudioProjects\BookManager_java\app\src\main\AndroidManifest.xml:16:17-69
-25-->D:\AndroidStudioProjects\BookManager_java\app\src\main\AndroidManifest.xml:16:25-66
-26
-27                <category android:name="android.intent.category.LAUNCHER" />
-27-->D:\AndroidStudioProjects\BookManager_java\app\src\main\AndroidManifest.xml:18:17-77
-27-->D:\AndroidStudioProjects\BookManager_java\app\src\main\AndroidManifest.xml:18:27-74
-28            </intent-filter>
-29        </activity>
-30
-31        <provider
-31-->[androidx.emoji2:emoji2:1.0.0] C:\Users\Sakula\.gradle\caches\transforms-3\8b7c53cedc320aafa8740bc99100eae7\transformed\jetified-emoji2-1.0.0\AndroidManifest.xml:26:9-34:20
-32            android:name="androidx.startup.InitializationProvider"
-32-->[androidx.emoji2:emoji2:1.0.0] C:\Users\Sakula\.gradle\caches\transforms-3\8b7c53cedc320aafa8740bc99100eae7\transformed\jetified-emoji2-1.0.0\AndroidManifest.xml:27:13-67
-33            android:authorities="com.example.bookmanager_java.androidx-startup"
-33-->[androidx.emoji2:emoji2:1.0.0] C:\Users\Sakula\.gradle\caches\transforms-3\8b7c53cedc320aafa8740bc99100eae7\transformed\jetified-emoji2-1.0.0\AndroidManifest.xml:28:13-68
-34            android:exported="false" >
-34-->[androidx.emoji2:emoji2:1.0.0] C:\Users\Sakula\.gradle\caches\transforms-3\8b7c53cedc320aafa8740bc99100eae7\transformed\jetified-emoji2-1.0.0\AndroidManifest.xml:29:13-37
-35            <meta-data
-35-->[androidx.emoji2:emoji2:1.0.0] C:\Users\Sakula\.gradle\caches\transforms-3\8b7c53cedc320aafa8740bc99100eae7\transformed\jetified-emoji2-1.0.0\AndroidManifest.xml:31:13-33:52
-36                android:name="androidx.emoji2.text.EmojiCompatInitializer"
-36-->[androidx.emoji2:emoji2:1.0.0] C:\Users\Sakula\.gradle\caches\transforms-3\8b7c53cedc320aafa8740bc99100eae7\transformed\jetified-emoji2-1.0.0\AndroidManifest.xml:32:17-75
-37                android:value="androidx.startup" />
-37-->[androidx.emoji2:emoji2:1.0.0] C:\Users\Sakula\.gradle\caches\transforms-3\8b7c53cedc320aafa8740bc99100eae7\transformed\jetified-emoji2-1.0.0\AndroidManifest.xml:33:17-49
-38            <meta-data
-38-->[androidx.lifecycle:lifecycle-process:2.4.0] C:\Users\Sakula\.gradle\caches\transforms-3\e3d5f7348f31abeaadb43deed4aab633\transformed\jetified-lifecycle-process-2.4.0\AndroidManifest.xml:31:13-33:52
-39                android:name="androidx.lifecycle.ProcessLifecycleInitializer"
-39-->[androidx.lifecycle:lifecycle-process:2.4.0] C:\Users\Sakula\.gradle\caches\transforms-3\e3d5f7348f31abeaadb43deed4aab633\transformed\jetified-lifecycle-process-2.4.0\AndroidManifest.xml:32:17-78
-40                android:value="androidx.startup" />
-40-->[androidx.lifecycle:lifecycle-process:2.4.0] C:\Users\Sakula\.gradle\caches\transforms-3\e3d5f7348f31abeaadb43deed4aab633\transformed\jetified-lifecycle-process-2.4.0\AndroidManifest.xml:33:17-49
-41        </provider>
-42    </application>
-43
-44</manifest>
+20-->C:\Users\Googo\AndroidStudioProjects\github\BookManager\app\src\main\AndroidManifest.xml:11:9-54
+21        <service
+21-->C:\Users\Googo\AndroidStudioProjects\github\BookManager\app\src\main\AndroidManifest.xml:12:9-15:47
+22            android:name="com.example.bookmanager_java.MyService4"
+22-->C:\Users\Googo\AndroidStudioProjects\github\BookManager\app\src\main\AndroidManifest.xml:13:13-39
+23            android:enabled="true"
+23-->C:\Users\Googo\AndroidStudioProjects\github\BookManager\app\src\main\AndroidManifest.xml:14:13-35
+24            android:exported="true" />
+24-->C:\Users\Googo\AndroidStudioProjects\github\BookManager\app\src\main\AndroidManifest.xml:15:13-36
+25        <service
+25-->C:\Users\Googo\AndroidStudioProjects\github\BookManager\app\src\main\AndroidManifest.xml:16:9-19:39
+26            android:name="com.example.bookmanager_java.MyService3"
+26-->C:\Users\Googo\AndroidStudioProjects\github\BookManager\app\src\main\AndroidManifest.xml:17:13-39
+27            android:enabled="true"
+27-->C:\Users\Googo\AndroidStudioProjects\github\BookManager\app\src\main\AndroidManifest.xml:18:13-35
+28            android:exported="true" />
+28-->C:\Users\Googo\AndroidStudioProjects\github\BookManager\app\src\main\AndroidManifest.xml:19:13-36
+29        <service
+29-->C:\Users\Googo\AndroidStudioProjects\github\BookManager\app\src\main\AndroidManifest.xml:20:9-23:39
+30            android:name="com.example.bookmanager_java.MyService2"
+30-->C:\Users\Googo\AndroidStudioProjects\github\BookManager\app\src\main\AndroidManifest.xml:21:13-39
+31            android:enabled="true"
+31-->C:\Users\Googo\AndroidStudioProjects\github\BookManager\app\src\main\AndroidManifest.xml:22:13-35
+32            android:exported="true" />
+32-->C:\Users\Googo\AndroidStudioProjects\github\BookManager\app\src\main\AndroidManifest.xml:23:13-36
+33        <service
+33-->C:\Users\Googo\AndroidStudioProjects\github\BookManager\app\src\main\AndroidManifest.xml:24:9-27:39
+34            android:name="com.example.bookmanager_java.MyService"
+34-->C:\Users\Googo\AndroidStudioProjects\github\BookManager\app\src\main\AndroidManifest.xml:25:13-38
+35            android:enabled="true"
+35-->C:\Users\Googo\AndroidStudioProjects\github\BookManager\app\src\main\AndroidManifest.xml:26:13-35
+36            android:exported="true" />
+36-->C:\Users\Googo\AndroidStudioProjects\github\BookManager\app\src\main\AndroidManifest.xml:27:13-36
+37
+38        <activity
+38-->C:\Users\Googo\AndroidStudioProjects\github\BookManager\app\src\main\AndroidManifest.xml:28:9-30:40
+39            android:name="com.example.bookmanager_java.MainActivity3"
+39-->C:\Users\Googo\AndroidStudioProjects\github\BookManager\app\src\main\AndroidManifest.xml:29:13-42
+40            android:exported="false" />
+40-->C:\Users\Googo\AndroidStudioProjects\github\BookManager\app\src\main\AndroidManifest.xml:30:13-37
+41        <activity
+41-->C:\Users\Googo\AndroidStudioProjects\github\BookManager\app\src\main\AndroidManifest.xml:31:9-33:40
+42            android:name="com.example.bookmanager_java.MainActivity2"
+42-->C:\Users\Googo\AndroidStudioProjects\github\BookManager\app\src\main\AndroidManifest.xml:32:13-42
+43            android:exported="false" />
+43-->C:\Users\Googo\AndroidStudioProjects\github\BookManager\app\src\main\AndroidManifest.xml:33:13-37
+44        <activity
+44-->C:\Users\Googo\AndroidStudioProjects\github\BookManager\app\src\main\AndroidManifest.xml:34:9-42:20
+45            android:name="com.example.bookmanager_java.MainActivity"
+45-->C:\Users\Googo\AndroidStudioProjects\github\BookManager\app\src\main\AndroidManifest.xml:35:13-41
+46            android:exported="true" >
+46-->C:\Users\Googo\AndroidStudioProjects\github\BookManager\app\src\main\AndroidManifest.xml:36:13-36
+47            <intent-filter>
+47-->C:\Users\Googo\AndroidStudioProjects\github\BookManager\app\src\main\AndroidManifest.xml:37:13-41:29
+48                <action android:name="android.intent.action.MAIN" />
+48-->C:\Users\Googo\AndroidStudioProjects\github\BookManager\app\src\main\AndroidManifest.xml:38:17-69
+48-->C:\Users\Googo\AndroidStudioProjects\github\BookManager\app\src\main\AndroidManifest.xml:38:25-66
+49
+50                <category android:name="android.intent.category.LAUNCHER" />
+50-->C:\Users\Googo\AndroidStudioProjects\github\BookManager\app\src\main\AndroidManifest.xml:40:17-77
+50-->C:\Users\Googo\AndroidStudioProjects\github\BookManager\app\src\main\AndroidManifest.xml:40:27-74
+51            </intent-filter>
+52        </activity>
+53
+54        <provider
+54-->[androidx.emoji2:emoji2:1.0.0] C:\Users\Googo\.gradle\caches\transforms-3\8b7c53cedc320aafa8740bc99100eae7\transformed\jetified-emoji2-1.0.0\AndroidManifest.xml:26:9-34:20
+55            android:name="androidx.startup.InitializationProvider"
+55-->[androidx.emoji2:emoji2:1.0.0] C:\Users\Googo\.gradle\caches\transforms-3\8b7c53cedc320aafa8740bc99100eae7\transformed\jetified-emoji2-1.0.0\AndroidManifest.xml:27:13-67
+56            android:authorities="com.example.bookmanager_java.androidx-startup"
+56-->[androidx.emoji2:emoji2:1.0.0] C:\Users\Googo\.gradle\caches\transforms-3\8b7c53cedc320aafa8740bc99100eae7\transformed\jetified-emoji2-1.0.0\AndroidManifest.xml:28:13-68
+57            android:exported="false" >
+57-->[androidx.emoji2:emoji2:1.0.0] C:\Users\Googo\.gradle\caches\transforms-3\8b7c53cedc320aafa8740bc99100eae7\transformed\jetified-emoji2-1.0.0\AndroidManifest.xml:29:13-37
+58            <meta-data
+58-->[androidx.emoji2:emoji2:1.0.0] C:\Users\Googo\.gradle\caches\transforms-3\8b7c53cedc320aafa8740bc99100eae7\transformed\jetified-emoji2-1.0.0\AndroidManifest.xml:31:13-33:52
+59                android:name="androidx.emoji2.text.EmojiCompatInitializer"
+59-->[androidx.emoji2:emoji2:1.0.0] C:\Users\Googo\.gradle\caches\transforms-3\8b7c53cedc320aafa8740bc99100eae7\transformed\jetified-emoji2-1.0.0\AndroidManifest.xml:32:17-75
+60                android:value="androidx.startup" />
+60-->[androidx.emoji2:emoji2:1.0.0] C:\Users\Googo\.gradle\caches\transforms-3\8b7c53cedc320aafa8740bc99100eae7\transformed\jetified-emoji2-1.0.0\AndroidManifest.xml:33:17-49
+61            <meta-data
+61-->[androidx.lifecycle:lifecycle-process:2.4.0] C:\Users\Googo\.gradle\caches\transforms-3\e3d5f7348f31abeaadb43deed4aab633\transformed\jetified-lifecycle-process-2.4.0\AndroidManifest.xml:31:13-33:52
+62                android:name="androidx.lifecycle.ProcessLifecycleInitializer"
+62-->[androidx.lifecycle:lifecycle-process:2.4.0] C:\Users\Googo\.gradle\caches\transforms-3\e3d5f7348f31abeaadb43deed4aab633\transformed\jetified-lifecycle-process-2.4.0\AndroidManifest.xml:32:17-78
+63                android:value="androidx.startup" />
+63-->[androidx.lifecycle:lifecycle-process:2.4.0] C:\Users\Googo\.gradle\caches\transforms-3\e3d5f7348f31abeaadb43deed4aab633\transformed\jetified-lifecycle-process-2.4.0\AndroidManifest.xml:33:17-49
+64        </provider>
+65    </application>
+66
+67</manifest>
