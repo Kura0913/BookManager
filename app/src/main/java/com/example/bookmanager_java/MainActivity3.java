@@ -99,7 +99,7 @@ public class MainActivity3 extends AppCompatActivity {
         btn_bookBorrow.setOnClickListener(v->{
             if(tv_bookName.getText().toString().length()<=0 || tv_author.getText().toString().length()<=0
                     || tv_press.getText().toString().length()<=0 || tv_counter.getText().toString().length()<=0){
-                Toast.makeText(MainActivity3.this, "資料為填齊!", Toast.LENGTH_SHORT).show();
+                Toast.makeText(MainActivity3.this, "資料未填齊!", Toast.LENGTH_SHORT).show();
             }
             else{
 
@@ -132,7 +132,7 @@ public class MainActivity3 extends AppCompatActivity {
         btn_bookReturn.setOnClickListener(v->{
             if(tv_bookName.getText().toString().length()<=0 || tv_author.getText().toString().length()<=0
                     || tv_press.getText().toString().length()<=0 || tv_counter.getText().toString().length()<=0){
-                Toast.makeText(MainActivity3.this, "資料為填齊!", Toast.LENGTH_SHORT).show();
+                Toast.makeText(MainActivity3.this, "資料未填齊!", Toast.LENGTH_SHORT).show();
             }
             else{
 

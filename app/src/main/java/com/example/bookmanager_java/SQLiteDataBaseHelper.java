@@ -16,7 +16,7 @@ import java.util.HashMap;
 public class SQLiteDataBaseHelper extends SQLiteOpenHelper {
 
     String TableName;
-
+    boolean bookExist;
 
     public SQLiteDataBaseHelper(@Nullable Context context
             , @Nullable String dataBaseName
@@ -147,6 +147,58 @@ public class SQLiteDataBaseHelper extends SQLiteOpenHelper {
             arrayList.add(hashMap);
         }
         return arrayList;
+    }
+    //檢查是否有重複的資料
+    public boolean CheckBookExist(String getBookName, String getAuthor, String getPress) {
+        bookExist = false;
+        SQLiteDatabase db = getReadableDatabase();
+        Cursor c = db.rawQuery(" SELECT * FROM " + TableName
+                + " WHERE BookName =" + "'" + getBookName + "'", null);
+        while (c.moveToNext()) {
+            HashMap<String, String> hashMap = new HashMap<>();
+            String id = c.getString(0);
+            String bookName = c.getString(1);
+            String author = c.getString(2);
+            String press = c.getString(3);
+            String counter = c.getString(4);
+
+            if((author.equals(getAuthor)) && (press.equals(getPress)))
+            {
+                bookExist = true;
+                break;
+            }
+            else
+            {
+                bookExist = false;
+            }
+        }
+        return bookExist;
+    }
+    //檢查是否有重複的資料(for Modify)
+    public boolean CheckBookExist(String getId,String getBookName, String getAuthor, String getPress) {
+        bookExist = false;
+        SQLiteDatabase db = getReadableDatabase();
+        Cursor c = db.rawQuery(" SELECT * FROM " + TableName
+                + " WHERE BookName =" + "'" + getBookName + "'", null);
+        while (c.moveToNext()) {
+            HashMap<String, String> hashMap = new HashMap<>();
+            String id = c.getString(0);
+            String bookName = c.getString(1);
+            String author = c.getString(2);
+            String press = c.getString(3);
+            String counter = c.getString(4);
+
+            if((author.equals(getAuthor)) && (press.equals(getPress)) && !id.equals(getId))
+            {
+                bookExist = true;
+                break;
+            }
+            else
+            {
+                bookExist = false;
+            }
+        }
+        return bookExist;
     }
 
     //修改資料
