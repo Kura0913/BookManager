@@ -132,28 +132,31 @@ public class MainActivity2 extends AppCompatActivity {
                 Toast.makeText(MainActivity2.this, "資料未填齊!", Toast.LENGTH_SHORT).show();
             }
             else{
-                bookExist = mDBHelper.CheckBookExist(selectedBookList.get(0).get("id"),ed_bookName.getText().toString(),ed_author.getText().toString(),ed_press.getText().toString());
-                if(bookExist)
-                {
-                    Toast.makeText(MainActivity2.this,"已有該書籍的資料，請直接搜尋更改!",Toast.LENGTH_SHORT).show();
-                }
-                else{
-                    mDBHelper.modify(selectedBookList.get(0).get("id")
-                            ,ed_bookName.getText().toString()
-                            ,ed_author.getText().toString()
-                            ,ed_press.getText().toString()
-                            ,ed_counter.getText().toString());
-                    if(flag){
-                        bookList = mDBHelper.searchByBookName(ed_search.getText().toString());
+                try{
+                    bookExist = mDBHelper.CheckBookExist(selectedBookList.get(0).get("id"),ed_bookName.getText().toString(),ed_author.getText().toString(),ed_press.getText().toString());
+                    if(bookExist)
+                    {
+                        Toast.makeText(MainActivity2.this,"已有該書籍的資料，請直接搜尋更改!",Toast.LENGTH_SHORT).show();
                     }
                     else{
-                        bookList = mDBHelper.showAll();
+                        mDBHelper.modify(selectedBookList.get(0).get("id")
+                                ,ed_bookName.getText().toString()
+                                ,ed_author.getText().toString()
+                                ,ed_press.getText().toString()
+                                ,ed_counter.getText().toString());
+                        if(flag){
+                            bookList = mDBHelper.searchByBookName(ed_search.getText().toString());
+                        }
+                        else{
+                            bookList = mDBHelper.showAll();
+                        }
+                        myAdapter.notifyDataSetChanged();
+                        Toast.makeText(MainActivity2.this,"修改完成",Toast.LENGTH_SHORT).show();
                     }
-                    myAdapter.notifyDataSetChanged();
-                    Toast.makeText(MainActivity2.this,"修改完成",Toast.LENGTH_SHORT).show();
+
+                }catch(Exception e){
+                    Toast.makeText(MainActivity2.this,"請選擇欲修改的資料!",Toast.LENGTH_SHORT).show();
                 }
-
-
 
             }
         });

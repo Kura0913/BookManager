@@ -99,7 +99,7 @@ public class MainActivity3 extends AppCompatActivity {
         btn_bookBorrow.setOnClickListener(v->{
             if(tv_bookName.getText().toString().length()<=0 || tv_author.getText().toString().length()<=0
                     || tv_press.getText().toString().length()<=0 || tv_counter.getText().toString().length()<=0){
-                Toast.makeText(MainActivity3.this, "資料未填齊!", Toast.LENGTH_SHORT).show();
+                Toast.makeText(MainActivity3.this, "請選擇欲借閱的書籍!", Toast.LENGTH_SHORT).show();
             }
             else{
 
@@ -121,7 +121,7 @@ public class MainActivity3 extends AppCompatActivity {
                         bookList = mDBHelper.showAll();
                     }
                     myAdapter.notifyDataSetChanged();
-                    clearAll();
+                    clearCheckBook();
                     Toast.makeText(MainActivity3.this,"借書完成",Toast.LENGTH_SHORT).show();
                 }
 
@@ -132,7 +132,7 @@ public class MainActivity3 extends AppCompatActivity {
         btn_bookReturn.setOnClickListener(v->{
             if(tv_bookName.getText().toString().length()<=0 || tv_author.getText().toString().length()<=0
                     || tv_press.getText().toString().length()<=0 || tv_counter.getText().toString().length()<=0){
-                Toast.makeText(MainActivity3.this, "資料未填齊!", Toast.LENGTH_SHORT).show();
+                Toast.makeText(MainActivity3.this, "請選擇欲歸還的書籍!", Toast.LENGTH_SHORT).show();
             }
             else{
 
@@ -149,7 +149,7 @@ public class MainActivity3 extends AppCompatActivity {
                 }
 
                 myAdapter.notifyDataSetChanged();
-                clearAll();
+                clearCheckBook();
                 Toast.makeText(MainActivity3.this,"還書完成",Toast.LENGTH_SHORT).show();
             }
         });
@@ -182,6 +182,14 @@ public class MainActivity3 extends AppCompatActivity {
         tv_press.setText("");
         tv_counter.setText("");
         ed_search.setText("");
+        selectedBookList.clear();
+    }
+
+    private void clearCheckBook(){
+        tv_bookName.setText("");
+        tv_author.setText("");
+        tv_press.setText("");
+        tv_counter.setText("");
         selectedBookList.clear();
     }
 
