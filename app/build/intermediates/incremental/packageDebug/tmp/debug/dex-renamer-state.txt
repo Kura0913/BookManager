@@ -1,4 +1,4 @@
-#Tue Jan 04 18:18:27 CST 2022
+#Tue Jan 04 22:02:31 CST 2022
 base.2=D\:\\AndroidStudioProjects\\BookManager-master\\app\\build\\intermediates\\dex\\debug\\mergeProjectDexDebug\\2\\classes.dex
 path.2=2/classes.dex
 base.1=D\:\\AndroidStudioProjects\\BookManager-master\\app\\build\\intermediates\\dex\\debug\\mergeProjectDexDebug\\0\\classes.dex
